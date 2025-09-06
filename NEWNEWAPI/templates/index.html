@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>CARSAPI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>API про машини 🚀</h1>
+
+    <!-- Випадкова машина / колір / порада -->
+    <button onclick="getRandomCars()">Випадкова машина</button>
+    <button onclick="getRandomColor()">Випадковий колір</button>
+    <button onclick="getTip()">Порада</button>
+
+
+    <div id="random-result"></div>
+
+    <hr>
+
+    <!-- Додавання чисел -->
+    <input id="num1" type="number" placeholder="Число 1">
+    <input id="num2" type="number" placeholder="Число 2">
+    <button onclick="calculate()">Додати</button>
+    <div id="calc-result"></div>
+
+    <hr>
+
+    <!-- Привітання -->
+    <input id="name" type="text" placeholder="Ім'я">
+    <input id="age" type="number" placeholder="Вік">
+    <button onclick="getGreeting()">Привітання</button>
+    <div id="greet-result"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body {
+    font-family: "Times New Roman", sans-serif;
+    text-align: center;
+    padding: 30px;
+    background: #112ddb;
+}
+
+button {
+    padding: 20px 30px;
+    margin: 7px;
+    border: 2px solid #333333;
+    border-radius: 8px;
+    background: #ffffff;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff5252;
+}
+
+#random-result, #calc-result, #greet-result {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    display: none;
+}
