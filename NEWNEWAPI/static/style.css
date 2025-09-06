@@ -16,7 +16,7 @@ button {
 }
 
 button:hover {
-    background: #ff5252;
+    background: #dabe12;
 }
 
 #random-result, #calc-result, #greet-result {
